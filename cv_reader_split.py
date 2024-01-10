@@ -14,7 +14,8 @@ output_folder = "Formatted CVs"
 
 def cv_reader(unformatted_cv):
     # Set OpenAI API key & Initialize GPT Client
-    openai.api_key = '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'
+    # api_key is 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
+    openai.api_key = 'PLACEHOLDER'
 
     # Initialize AI's Personality
     conversation = [
